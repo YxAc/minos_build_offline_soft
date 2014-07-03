@@ -1,0 +1,10 @@
+MySQLdb1-MySQLdb-1.2.5.tar.gz  zope.interface-4.0.3.tar.gz
+DBUtils-1.1.tar.gz       elementtree-1.2.6-20050316.tar.gz  pexpect-3.1.tar.gz
+distribute-0.6.9.tar.gz  meld3-0.6.10.tar.gz                Twisted-13.2.0.tar.bz2
+
+0. add them to the requirements
+
+1. /home/work/infra/minos/build/env/bin/pip install zope.interface --no-index --find-links ./download_temp/ before install Twisted
+
+2. /home/work/infra/minos/build/env/bin/pip install distribute --no-index --find-links ./download_temp/ 
+   before /home/work/infra/minos/build/env/bin/pip install MySQLdb1-MySQLdb --no-index --find-links ./download_temp/
